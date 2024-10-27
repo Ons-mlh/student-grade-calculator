@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student grade calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <input type="number" placeholder="Programmation C++ : " id="prog"/>
+            <input type="number" placeholder="Coefficient : " id="coef-prog"/>
+            <input type="number" placeholder="Architecture d'ordinateur : " id="arch"/>
+            <input type="number" placeholder="Coefficient : " id="coef-arch"/>
+            <input type="number" placeholder="Bases des données : " id="base"/>
+            <input type="number" placeholder="Coefficient : " id="coef-base"/>
+            <input type="number" placeholder="Système d'exploitation : " id="systeme"/>
+            <input type="number" placeholder="Coefficient : " id="coef-sys"/>
+            <input type="number" placeholder="Programmation orienté objet : " id="poo"/>
+            <input type="number" placeholder="Coefficient : " id="coef-poo"/>
+            <div>
+                <script src="index.js"></script>
+                <button onclick="results()">Afficher les résultats</button>
+            </div>    
+        </div>
+        <div id="right">
+            <h1 id="resultats">Résultats</h1>
+            <div id="m-s-m">
+                <h2>Moyenne : <span id="moyenne" ></span> </h2>
+                <h2>Statut : <span id="statut" ></span> </h2>
+                <h2>Mention : <span id="mention" ></span> </h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
